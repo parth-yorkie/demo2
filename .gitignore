@@ -1,0 +1,76 @@
+# =========================
+# WordPress Core
+# =========================
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# =========================
+# wp-content (keep selective)
+# =========================
+/wp-content/*
+!/wp-content/themes/
+!/wp-content/plugins/
+!/wp-content/mu-plugins/
+!/wp-content/uploads/.gitkeep
+
+# Ignore uploads (media files)
+/wp-content/uploads/*
+
+# Ignore cache
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+/wp-content/ai1wm-backups/
+
+# =========================
+# Themes
+# =========================
+# Ignore node modules if using build tools
+/wp-content/themes/*/node_modules/
+/wp-content/themes/*/dist/
+/wp-content/themes/*/build/
+
+# Ignore logs
+*.log
+
+# =========================
+# Plugins
+# =========================
+# Ignore plugin dependencies
+/wp-content/plugins/*/node_modules/
+/wp-content/plugins/*/vendor/
+
+# =========================
+# Environment & Config
+# =========================
+wp-config.php
+.env
+.env.*
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PHPStorm
+.idea/
+
+# =========================
+# Composer
+# =========================
+/vendor/
+
+# =========================
+# Misc
+# =========================
+*.sql
+*.zip

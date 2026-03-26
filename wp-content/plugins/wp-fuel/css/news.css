@@ -1,0 +1,50 @@
+.fuel-news-featured {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.fuel-news-featured > div {
+  padding: 1em;
+}
+
+.fuel-news-featured h4 {
+  margin-bottom: 5px;
+}
+
+.fuel-news-featured h4:not(:first-child) {
+  margin-top: 20px;
+}
+
+.fuel-article-org-logo {
+  max-width: 32px !important;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.fuel-article-org-name {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fuel-article-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.fuel-article-description {
+  margin: 5px 0px !important;
+}
+
+.fuel-article-details {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .fuel-news-featured {
+    grid-template-columns: 1fr;
+  }
+}

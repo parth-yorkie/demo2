@@ -1,0 +1,270 @@
+.the-aiseo-wrap .column-actions {
+	width: 150px;
+}
+
+.aiseo-type-badge {
+	display: inline-block;
+	padding: 3px 10px;
+	border-radius: 12px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	background: #7e8993;
+}
+
+.aiseo-type-post {
+	background-color: #2271b1;
+}
+
+.aiseo-type-page {
+	background-color: #008a20;
+}
+
+.aiseo-type-york-team {
+	background-color: #d64e00;
+}
+
+.aiseo-type-york-investments {
+	background-color: #722391;
+}
+
+.aiseo-type-product {
+	background-color: #9b59b6;
+}
+
+.aiseo-type-portfolio {
+	background-color: #34495e;
+}
+
+.the-aiseo-wrap .tablenav {
+	height: auto;
+	margin: 40px 0;
+}
+
+.the-aiseo-wrap .aiseo-pagination-info {
+	text-align: center;
+	color: #444;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.the-aiseo-wrap .tablenav .tablenav-pages {
+	float: none;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	height: auto;
+}
+
+.the-aiseo-wrap .tablenav .tablenav-pages .page-numbers {
+	display: inline-block;
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #444;
+	font-weight: 500;
+	font-size: 16px;
+	border: none;
+	background: transparent;
+	transition: all 0.2s;
+}
+
+.the-aiseo-wrap .tablenav .tablenav-pages .page-numbers.current {
+	background: #2c3e50;
+	color: #fff;
+	width: 40px;
+	padding: 0;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 10px;
+}
+
+.the-aiseo-wrap .tablenav .tablenav-pages .prev,
+.the-aiseo-wrap .tablenav .tablenav-pages .next {
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #2c3e50;
+}
+
+.the-aiseo-wrap .tablenav .tablenav-pages .prev:hover,
+.the-aiseo-wrap .tablenav .tablenav-pages .next:hover {
+	color: #3498db;
+}
+
+.the-aiseo-wrap .tablenav .tablenav-pages .page-numbers:not(.current):not(.prev):not(.next):hover {
+	color: #3498db;
+}
+
+.the-aiseo-wrap .tablenav .tablenav-pages .displaying-num {
+	display: none;
+}
+
+.the-aiseo-wrap .spinner {
+	float: none;
+	margin-top: 5px;
+}
+
+.aiseo-regenerate-spinner {
+	margin-left: 10px;
+}
+
+.aiseo-suggestion-container {
+	background: #f0f6fb;
+	padding: 15px;
+	border: 1px solid #c3d9e9;
+	margin: 10px 0;
+	border-radius: 4px;
+}
+
+.aiseo-field {
+	margin-bottom: 12px;
+}
+
+.aiseo-input-group {
+	display: flex;
+	gap: 8px;
+	align-items: flex-start;
+}
+
+.aiseo-input-group .button {
+	padding: 0 8px;
+	height: 30px;
+	line-height: 28px;
+	min-width: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.aiseo-input-group .button .dashicons,
+.aiseo-input-group .button svg {
+	color: #444;
+	stroke: #444;
+}
+
+.aiseo-input-group .button .dashicons {
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+}
+
+.aiseo-input-group .button svg {
+	display: block;
+	margin: 0 auto;
+}
+
+.aiseo-input-group .button .dashicons-update {
+	display: inline-block;
+}
+
+.aiseo-input-group .button:disabled .dashicons-update {
+	animation: dashicons-spin 2s infinite linear;
+}
+
+.aiseo-input-group .button .aiseo-success-icon {
+	color: #008a20 !important;
+	font-weight: bold;
+}
+
+.aiseo-input-group textarea {
+	min-height: 60px;
+}
+
+.aiseo-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.aiseo-field input,
+.aiseo-field textarea {
+	background: #fff;
+}
+
+.aiseo-actions {
+	margin-top: 15px;
+}
+
+.aiseo-actions .aiseo-cancel {
+	margin-left: 10px;
+}
+
+.aiseo-filter-row {
+	display: block !important;
+	margin-bottom: 0 !important;
+}
+
+.aiseo-filter-item {
+	display: inline-block !important;
+	vertical-align: bottom !important;
+	margin-right: 15px !important;
+	margin-bottom: 10px !important;
+}
+
+.aiseo-filter-item label {
+	display: block !important;
+	margin-bottom: 5px !important;
+	font-weight: 600 !important;
+	font-size: 13px !important;
+}
+
+.aiseo-filter-item input[type="date"],
+.aiseo-filter-item input[type="text"],
+.aiseo-filter-item select {
+	height: 32px !important;
+	padding: 0 8px !important;
+	margin: 0 !important;
+}
+
+.aiseo-filter-container {
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ccd0d4;
+	margin-bottom: 15px !important;
+	border-radius: 4px;
+}
+
+.aiseo-bulk-actions {
+	display: inline-block !important;
+	vertical-align: bottom !important;
+	margin-bottom: 10px !important;
+	float: right !important;
+}
+
+.aiseo-bulk-btn {
+	white-space: nowrap !important;
+}
+
+.aiseo-filter-container select {
+	margin-right: 10px;
+}
+
+.aiseo-filter-item {
+	display: inline-block;
+}
+
+.aiseo-filter-container {
+	margin-bottom: 15px;
+}
+
+.aiseo-filter-item label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.aiseo-filter-item {
+	display: inline-block;
+}
+
+.aiseo-filter-container {
+	margin-bottom: 15px;
+}
+
+.aiseo-filter-item label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}

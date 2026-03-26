@@ -1,0 +1,10 @@
+/*!
+* WP Grid Builder Elementor Add-on
+*
+* @package   WP Grid Builder - Elementor
+* @author    Loïc Blascos
+* @link      https://www.wpgridbuilder.com
+* @copyright 2019-2023 Loïc Blascos
+*
+*/
+@font-face{font-family:'wpgb';src:url("../fonts/wpgb.eot");src:url("../fonts/wpgb.eot") format("embedded-opentype"),url("../fonts/wpgb.woff2") format("woff2"),url("../fonts/wpgb.woff") format("woff"),url("../fonts/wpgb.ttf") format("truetype"),url("../fonts/wpgb.svg") format("svg");font-weight:normal;font-style:normal}[class^="wpgb-icon"]{display:block;font-family:wpgb;font-size:inherit;font-weight:400;font-style:normal;font-variant:normal;line-height:1;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.wpgb-icon-facet::before{content:"\ea01"}.wpgb-icon-grid::before{content:"\ea02"}

@@ -1,0 +1,717 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Grid Builder - Elementor\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-grid-builder-"
+"elementor\n"
+"POT-Creation-Date: 2021-03-23T16:33:37+00:00\n"
+"PO-Revision-Date: 2021-03-23 18:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Tue Apr 07 2020 16:32:53 GMT+0200 (heure d’été d’Europe "
+"centrale)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;"
+"_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;"
+"esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;"
+"transChoice:1,2\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin
+msgid "WP Grid Builder - Elementor"
+msgstr "WP Grid Builder - Elementor"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wpgridbuilder.com"
+msgstr "https://www.wpgridbuilder.com"
+
+#. Description of the plugin
+msgid "Integrate WP Grid Builder with Elementor plugin."
+msgstr "Intégrez WP Grid Builder avec l'extension Elementor."
+
+#. Author of the plugin
+msgid "Loïc Blascos"
+msgstr "Loïc Blascos"
+
+#: includes/class-editor.php:198 includes/widgets/class-facet.php:224
+#: includes/widgets/class-grid.php:227
+msgid "Please wait, loading content..."
+msgstr "Veuillez patienter, chargement du contenu..."
+
+#: includes/class-editor.php:199
+msgid "No content found in facet."
+msgstr "Aucun contenu trouvé dans la facette."
+
+#: includes/class-editor.php:200
+msgid "Templates"
+msgstr "Templates"
+
+#: includes/class-editor.php:201
+msgid "Grids"
+msgstr "Grilles"
+
+#: includes/class-extend.php:66 includes/controls/pagination.php:23
+msgid "Pagination"
+msgstr "Pagination"
+
+#. translators: %s: Widget ID.
+#: includes/class-extend.php:100
+msgid "Widget ID: <strong>%s</strong>"
+msgstr "ID du widget: <strong>%s</strong>"
+
+#: includes/class-extend.php:110
+msgid "Fading Animation"
+msgstr "Animation de fondu"
+
+#: includes/class-extend.php:142
+msgid "No Results Message"
+msgstr "Message si aucun résultat"
+
+#: includes/class-extend.php:144 includes/class-extend.php:145
+msgid "Sorry, no results match your search criteria."
+msgstr "Désolé, aucun résultat ne correspond à votre recherche."
+
+#: includes/controls/button.php:23
+msgid "Button"
+msgstr "Bouton"
+
+#: includes/controls/button.php:34 includes/controls/counter.php:32
+#: includes/controls/geolocation.php:151 includes/controls/list.php:63
+#: includes/controls/pagination.php:34 includes/controls/toggle.php:35
+msgid "Alignment"
+msgstr "Alignement"
+
+#: includes/controls/button.php:38 includes/controls/counter.php:36
+#: includes/controls/geolocation.php:155 includes/controls/list.php:67
+#: includes/controls/pagination.php:38 includes/controls/range.php:285
+#: includes/controls/result-count.php:49 includes/controls/title.php:43
+#: includes/controls/toggle.php:39
+msgid "Left"
+msgstr "Gauche"
+
+#: includes/controls/button.php:42 includes/controls/geolocation.php:159
+#: includes/controls/list.php:71 includes/controls/pagination.php:42
+#: includes/controls/range.php:289 includes/controls/result-count.php:53
+#: includes/controls/title.php:47 includes/controls/toggle.php:43
+msgid "Center"
+msgstr "Centré"
+
+#: includes/controls/button.php:46 includes/controls/counter.php:40
+#: includes/controls/geolocation.php:163 includes/controls/list.php:75
+#: includes/controls/pagination.php:46 includes/controls/range.php:293
+#: includes/controls/result-count.php:57 includes/controls/title.php:51
+#: includes/controls/toggle.php:47
+msgid "Right"
+msgstr "Droite"
+
+#: includes/controls/button.php:50 includes/controls/toggle.php:51
+msgid "Stretch"
+msgstr "Etiré"
+
+#: includes/controls/button.php:63
+msgid "Button width"
+msgstr "Largeur du bouton"
+
+#: includes/controls/button.php:89 includes/controls/counter.php:89
+#: includes/controls/geolocation.php:177 includes/controls/input.php:35
+#: includes/controls/label.php:34 includes/controls/pagination.php:98
+#: includes/controls/range.php:307 includes/controls/result-count.php:71
+#: includes/controls/select.php:35 includes/controls/title.php:31
+#: includes/controls/toggle.php:66
+msgid "Typography"
+msgstr "Typographie"
+
+#: includes/controls/button.php:99 includes/controls/choice.php:35
+#: includes/controls/counter.php:99 includes/controls/geolocation.php:96
+#: includes/controls/input.php:45 includes/controls/input.php:339
+#: includes/controls/input.php:538 includes/controls/label.php:44
+#: includes/controls/radio.php:71 includes/controls/range.php:417
+#: includes/controls/rating.php:51 includes/controls/select.php:45
+#: includes/controls/select.php:374 includes/controls/select.php:544
+#: includes/controls/select.php:737 includes/controls/selection.php:94
+#: includes/controls/toggle.php:77
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/controls/button.php:106 includes/controls/button.php:146
+#: includes/controls/button.php:200 includes/controls/counter.php:106
+#: includes/controls/counter.php:127 includes/controls/counter.php:148
+#: includes/controls/geolocation.php:185 includes/controls/input.php:52
+#: includes/controls/input.php:99 includes/controls/input.php:160
+#: includes/controls/label.php:51 includes/controls/label.php:98
+#: includes/controls/label.php:159 includes/controls/pagination.php:115
+#: includes/controls/pagination.php:155 includes/controls/pagination.php:209
+#: includes/controls/pagination.php:263 includes/controls/range.php:315
+#: includes/controls/result-count.php:79 includes/controls/select.php:52
+#: includes/controls/select.php:99 includes/controls/select.php:158
+#: includes/controls/title.php:64 includes/controls/toggle.php:84
+#: includes/controls/toggle.php:124
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: includes/controls/button.php:117 includes/controls/button.php:157
+#: includes/controls/button.php:211 includes/controls/checkbox.php:80
+#: includes/controls/checkbox.php:109 includes/controls/checkbox.php:160
+#: includes/controls/choice.php:42 includes/controls/choice.php:71
+#: includes/controls/choice.php:114 includes/controls/geolocation.php:196
+#: includes/controls/input.php:70 includes/controls/input.php:117
+#: includes/controls/input.php:178 includes/controls/label.php:62
+#: includes/controls/label.php:109 includes/controls/label.php:170
+#: includes/controls/pagination.php:126 includes/controls/pagination.php:166
+#: includes/controls/pagination.php:220 includes/controls/pagination.php:274
+#: includes/controls/radio.php:78 includes/controls/radio.php:107
+#: includes/controls/range.php:326 includes/controls/range.php:435
+#: includes/controls/range.php:475 includes/controls/range.php:529
+#: includes/controls/result-count.php:90 includes/controls/select.php:70
+#: includes/controls/select.php:115 includes/controls/select.php:174
+#: includes/controls/title.php:75 includes/controls/toggle.php:95
+#: includes/controls/toggle.php:135 includes/controls/treeview.php:79
+#: includes/controls/treeview.php:119
+msgid "Background Color"
+msgstr "Couleur de l'arrière-plan"
+
+#: includes/controls/button.php:129 includes/controls/button.php:183
+#: includes/controls/button.php:237 includes/controls/checkbox.php:92
+#: includes/controls/checkbox.php:143 includes/controls/checkbox.php:194
+#: includes/controls/choice.php:54 includes/controls/choice.php:97
+#: includes/controls/choice.php:140 includes/controls/color.php:62
+#: includes/controls/color.php:91 includes/controls/color.php:120
+#: includes/controls/input.php:82 includes/controls/input.php:143
+#: includes/controls/input.php:204 includes/controls/pagination.php:138
+#: includes/controls/pagination.php:192 includes/controls/pagination.php:246
+#: includes/controls/pagination.php:300 includes/controls/radio.php:90
+#: includes/controls/radio.php:141 includes/controls/range.php:95
+#: includes/controls/range.php:164 includes/controls/range.php:260
+#: includes/controls/range.php:447 includes/controls/range.php:501
+#: includes/controls/range.php:555 includes/controls/select.php:82
+#: includes/controls/select.php:141 includes/controls/select.php:200
+#: includes/controls/toggle.php:107 includes/controls/toggle.php:161
+#: includes/controls/treeview.php:102 includes/controls/treeview.php:156
+msgid "Box Shadow"
+msgstr "Ombre de la boîte"
+
+#: includes/controls/button.php:139 includes/controls/choice.php:64
+#: includes/controls/counter.php:119 includes/controls/geolocation.php:116
+#: includes/controls/input.php:92 includes/controls/input.php:359
+#: includes/controls/input.php:558 includes/controls/label.php:91
+#: includes/controls/pagination.php:148 includes/controls/range.php:457
+#: includes/controls/rating.php:71 includes/controls/select.php:92
+#: includes/controls/select.php:408 includes/controls/select.php:597
+#: includes/controls/select.php:757 includes/controls/selection.php:114
+#: includes/controls/toggle.php:117
+msgid "Hover"
+msgstr "Survol"
+
+#: includes/controls/button.php:168 includes/controls/button.php:222
+#: includes/controls/checkbox.php:120 includes/controls/checkbox.php:171
+#: includes/controls/choice.php:82 includes/controls/choice.php:125
+#: includes/controls/color.php:79 includes/controls/color.php:108
+#: includes/controls/input.php:128 includes/controls/input.php:189
+#: includes/controls/label.php:136 includes/controls/label.php:197
+#: includes/controls/pagination.php:177 includes/controls/pagination.php:231
+#: includes/controls/pagination.php:285 includes/controls/radio.php:118
+#: includes/controls/range.php:486 includes/controls/range.php:540
+#: includes/controls/select.php:126 includes/controls/select.php:185
+#: includes/controls/toggle.php:146 includes/controls/treeview.php:141
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: includes/controls/button.php:193 includes/controls/range.php:511
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: includes/controls/button.php:250 includes/controls/checkbox.php:207
+#: includes/controls/choice.php:153 includes/controls/color.php:133
+#: includes/controls/geolocation.php:208 includes/controls/input.php:217
+#: includes/controls/label.php:216 includes/controls/pagination.php:313
+#: includes/controls/radio.php:154 includes/controls/range.php:73
+#: includes/controls/range.php:142 includes/controls/range.php:238
+#: includes/controls/range.php:338 includes/controls/range.php:568
+#: includes/controls/result-count.php:102 includes/controls/select.php:213
+#: includes/controls/title.php:87 includes/controls/toggle.php:174
+#: includes/controls/treeview.php:169
+msgid "Border"
+msgstr "Bordure"
+
+#: includes/controls/button.php:259 includes/controls/checkbox.php:216
+#: includes/controls/choice.php:162 includes/controls/color.php:142
+#: includes/controls/geolocation.php:217 includes/controls/input.php:226
+#: includes/controls/label.php:225 includes/controls/pagination.php:322
+#: includes/controls/radio.php:163 includes/controls/range.php:82
+#: includes/controls/range.php:151 includes/controls/range.php:247
+#: includes/controls/range.php:347 includes/controls/range.php:580
+#: includes/controls/result-count.php:111 includes/controls/select.php:222
+#: includes/controls/title.php:96 includes/controls/toggle.php:183
+#: includes/controls/treeview.php:178
+msgid "Border Radius"
+msgstr "Rayon de bordure"
+
+#: includes/controls/button.php:271 includes/controls/choice.php:174
+#: includes/controls/counter.php:163 includes/controls/geolocation.php:229
+#: includes/controls/input.php:238 includes/controls/label.php:237
+#: includes/controls/pagination.php:334 includes/controls/range.php:359
+#: includes/controls/range.php:595 includes/controls/result-count.php:123
+#: includes/controls/select.php:234 includes/controls/title.php:108
+#: includes/controls/toggle.php:195
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/controls/button.php:284 includes/controls/checkbox.php:228
+#: includes/controls/choice.php:187 includes/controls/geolocation.php:242
+#: includes/controls/input.php:251 includes/controls/label.php:250
+#: includes/controls/radio.php:178 includes/controls/range.php:372
+#: includes/controls/range.php:611 includes/controls/rating.php:113
+#: includes/controls/result-count.php:136 includes/controls/select.php:247
+#: includes/controls/title.php:121 includes/controls/toggle.php:208
+#: includes/controls/treeview.php:190
+msgid "Margin"
+msgstr "Marge"
+
+#: includes/controls/checkbox.php:22
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: includes/controls/checkbox.php:33
+msgid "Checkbox Size"
+msgstr "Taille de la case"
+
+#: includes/controls/checkbox.php:51
+msgid "Checkmark Size"
+msgstr "Taille de la coche"
+
+#: includes/controls/checkbox.php:73
+msgctxt "Checkbox state"
+msgid "Normal"
+msgstr "Normale"
+
+#: includes/controls/checkbox.php:102
+msgctxt "Checkbox state"
+msgid "Checked"
+msgstr "Cochée"
+
+#: includes/controls/checkbox.php:131 includes/controls/checkbox.php:182
+msgid "Checkmark Color"
+msgstr "Couleur de la coche"
+
+#: includes/controls/checkbox.php:153
+msgctxt "Checkbox state"
+msgid "Mixed"
+msgstr "Partielle"
+
+#: includes/controls/choice.php:22
+msgid "Choice"
+msgstr "Choix"
+
+#: includes/controls/choice.php:107 includes/controls/counter.php:140
+#: includes/controls/label.php:152
+msgid "Selected"
+msgstr "Sélectionné"
+
+#: includes/controls/color.php:22
+msgid "Color Swatch"
+msgstr "Echantillon de couleur"
+
+#: includes/controls/color.php:33
+msgid "Swatch Size"
+msgstr "Taille de l'échantillon"
+
+#: includes/controls/color.php:54
+msgctxt "Color swatch state"
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/controls/color.php:72
+msgctxt "Color swatch state"
+msgid "Hover"
+msgstr "Survol"
+
+#: includes/controls/color.php:101
+msgctxt "Color swatch state"
+msgid "Selected"
+msgstr "Sélectionné"
+
+#: includes/controls/counter.php:21
+msgid "Choice Counter"
+msgstr "Nombre de choix"
+
+#: includes/controls/facet.php:20 includes/controls/grid.php:20
+#: includes/controls/result-count.php:22
+msgid "Content"
+msgstr "Contenu"
+
+#: includes/controls/facet.php:28
+msgid "Select a facet"
+msgstr "Sélectionnez une facette"
+
+#: includes/controls/facet.php:39
+msgid "Select a grid or widget to filter"
+msgstr "Sélectionnez une grille ou un widget à filtrer"
+
+#: includes/controls/facet.php:50
+msgid "Or enter a Widget ID to filter"
+msgstr "Ou entrez un ID de widget à filtrer"
+
+#: includes/controls/facet.php:65
+msgid ""
+"The widget ID can be found when editing a widget under WP Grid Builder tab. "
+"It allows to filter a widget that is not present in the editor but on the "
+"frontend."
+msgstr ""
+"L'ID du widget peut être trouvé lors de l'édition d'un widget sous l'onglet "
+"WP Grid Builder. Il permet de filtrer un widget qui n'est pas présent dans "
+"l'éditeur mais sur le site publique."
+
+#: includes/controls/geolocation.php:22
+msgid "Locate Me Button"
+msgstr "Bouton \"Localisez-moi\""
+
+#: includes/controls/geolocation.php:33 includes/controls/input.php:475
+#: includes/controls/range.php:397 includes/controls/select.php:674
+#: includes/controls/selection.php:31
+msgid "Hide Button"
+msgstr "Masquer le bouton"
+
+#: includes/controls/geolocation.php:44 includes/controls/selection.php:42
+msgid "Size"
+msgstr "Taille"
+
+#: includes/controls/geolocation.php:65 includes/controls/input.php:308
+#: includes/controls/input.php:426 includes/controls/input.php:507
+#: includes/controls/select.php:484 includes/controls/select.php:706
+#: includes/controls/selection.php:63
+msgid "Horizontal Offset"
+msgstr "Décalage horizontal"
+
+#: includes/controls/geolocation.php:103 includes/controls/geolocation.php:123
+#: includes/controls/range.php:61 includes/controls/range.php:130
+#: includes/controls/range.php:226 includes/controls/range.php:424
+#: includes/controls/range.php:464 includes/controls/range.php:518
+#: includes/controls/rating.php:58 includes/controls/rating.php:78
+#: includes/controls/rating.php:98 includes/controls/selection.php:101
+#: includes/controls/selection.php:121
+msgid "Color"
+msgstr "Couleur"
+
+#: includes/controls/geolocation.php:140
+msgid "Radius Control"
+msgstr "Contrôle du rayon"
+
+#: includes/controls/grid.php:28
+msgid "Select a grid"
+msgstr "Sélectionnez une grille"
+
+#: includes/controls/grid.php:41
+msgid "Archive Template"
+msgstr "Modèle d'archive"
+
+#: includes/controls/grid.php:51
+msgid ""
+"The editor preview might look different from the frontend. Please make sure "
+"to check the frontend."
+msgstr ""
+"L'aperçu de l'éditeur peut être différent du site publique. Assurez-vous de "
+"vérifier le site publique."
+
+#: includes/controls/input.php:23
+msgid "Input"
+msgstr "Champ"
+
+#: includes/controls/input.php:153 includes/controls/select.php:151
+msgid "Focused"
+msgstr "Focus"
+
+#: includes/controls/input.php:265
+msgid "Input Icon"
+msgstr "Icône du champ"
+
+#: includes/controls/input.php:276 includes/controls/select.php:272
+msgid "Hide Icon"
+msgstr "Masquer l'icône"
+
+#: includes/controls/input.php:287 includes/controls/input.php:486
+#: includes/controls/select.php:297 includes/controls/select.php:685
+#: includes/controls/treeview.php:51
+msgid "Icon Size"
+msgstr "Taille de l'icône"
+
+#: includes/controls/input.php:346 includes/controls/input.php:366
+#: includes/controls/input.php:545 includes/controls/input.php:565
+#: includes/controls/select.php:381 includes/controls/select.php:415
+#: includes/controls/select.php:573 includes/controls/select.php:626
+#: includes/controls/select.php:744 includes/controls/select.php:764
+#: includes/controls/treeview.php:90 includes/controls/treeview.php:130
+msgid "Icon Color"
+msgstr "Couleur de l'icône"
+
+#: includes/controls/input.php:383
+msgid "Input Loader"
+msgstr "Indicateur de chargement"
+
+#: includes/controls/input.php:394 includes/controls/select.php:452
+msgid "Hide Loader"
+msgstr "Masquer l'indicateur"
+
+#: includes/controls/input.php:405 includes/controls/select.php:463
+msgid "Loader Size"
+msgstr "Taille de l'indicateur"
+
+#: includes/controls/input.php:448 includes/controls/select.php:506
+msgid "Loader Color"
+msgstr "Couleur de l'indicateur"
+
+#: includes/controls/input.php:464 includes/controls/range.php:386
+#: includes/controls/select.php:654
+msgid "Clear Button"
+msgstr "Bouton effacer"
+
+#: includes/controls/label.php:22
+msgid "Choice Label"
+msgstr "Libellé du choix"
+
+#: includes/controls/list.php:25
+msgid "List"
+msgstr "Liste"
+
+#: includes/controls/list.php:36
+msgid "Layout"
+msgstr "Mise en page"
+
+#: includes/controls/list.php:42
+msgctxt "Layout control value"
+msgid "Horizontal"
+msgstr "Horizontale"
+
+#: includes/controls/list.php:46
+msgctxt "Layout control value"
+msgid "Vertical"
+msgstr "Verticale"
+
+#: includes/controls/list.php:141 includes/controls/pagination.php:78
+msgid "Vertical Spacing"
+msgstr "Espacement vertical"
+
+#: includes/controls/list.php:214 includes/controls/pagination.php:59
+msgid "Horizontal Spacing"
+msgstr "Espacement horizontal"
+
+#: includes/controls/list.php:254
+msgid "Children Offset"
+msgstr "Décalage des enfants"
+
+#: includes/controls/map.php:20
+msgid "Map"
+msgstr "Carte"
+
+#: includes/controls/map.php:31
+msgid "Map Width"
+msgstr "Largeur de la carte"
+
+#: includes/controls/map.php:54
+msgid "Map Height"
+msgstr "Hauteur de la carte"
+
+#: includes/controls/pagination.php:108
+msgctxt "Pagination state"
+msgid "Normal"
+msgstr "Normale"
+
+#: includes/controls/pagination.php:202
+msgctxt "Pagination state"
+msgid "Current"
+msgstr "Actuelle"
+
+#: includes/controls/pagination.php:256
+msgid "Dots"
+msgstr "Points"
+
+#: includes/controls/radio.php:22
+msgid "Radio"
+msgstr "Bouton radio"
+
+#: includes/controls/radio.php:33
+msgid "Radio Size"
+msgstr "Taille du bouton"
+
+#: includes/controls/radio.php:51
+msgid "Cirlce Size"
+msgstr "Taille du cercle"
+
+#: includes/controls/radio.php:100 includes/controls/rating.php:91
+msgid "Pressed"
+msgstr "Pressé"
+
+#: includes/controls/radio.php:129
+msgid "Circle Color"
+msgstr "Couleur du cercle"
+
+#: includes/controls/range.php:23
+msgid "Range"
+msgstr "Plage"
+
+#: includes/controls/range.php:36
+msgid "Track"
+msgstr "Piste"
+
+#: includes/controls/range.php:43 includes/controls/range.php:112
+#: includes/controls/range.php:208
+msgid "Height"
+msgstr "Hauteur"
+
+#: includes/controls/range.php:105
+msgid "Progress"
+msgstr "Progression"
+
+#: includes/controls/range.php:178
+msgid "Range Thumb"
+msgstr "Curseur de la plage"
+
+#: includes/controls/range.php:189
+msgid "Width"
+msgstr "Largeur"
+
+#: includes/controls/range.php:270
+msgid "Range Values"
+msgstr "Valeurs de la plage"
+
+#: includes/controls/range.php:281 includes/controls/result-count.php:45
+#: includes/controls/title.php:39
+msgid "Text Alignment"
+msgstr "Alignement du texte"
+
+#: includes/controls/rating.php:20
+msgid "Stars"
+msgstr "Etoiles"
+
+#: includes/controls/rating.php:31
+msgid "Stars Size"
+msgstr "Taille des étoiles"
+
+#: includes/controls/select.php:23
+msgid "Select"
+msgstr "Liste déroulante"
+
+#: includes/controls/select.php:261
+msgid "Select Icon"
+msgstr "Icône de la liste déroulante"
+
+#: includes/controls/select.php:283
+msgid "Hide Separator"
+msgstr "Masquer le séparateur"
+
+#: includes/controls/select.php:318
+msgid "Icon Horizontal Offset"
+msgstr "Décalage horizontal de l'icône"
+
+#: includes/controls/select.php:342
+msgid "Separator Horizontal Offset"
+msgstr "Décalage horizontal du séparateur"
+
+#: includes/controls/select.php:392
+msgid "Separator Color"
+msgstr "Couleur du séparateur"
+
+#: includes/controls/select.php:432
+msgid "Select Loader"
+msgstr "Indicateur de chargement"
+
+#: includes/controls/select.php:444
+msgid ""
+"These settings are only applied for the asynchronous combobox (facet "
+"settings)."
+msgstr ""
+"Ces réglages ne sont appliqués que pour la liste combinée asynchrone "
+"(réglages des facettes)."
+
+#: includes/controls/select.php:522
+msgid "Selected Values"
+msgstr "Valeurs sélectionnées"
+
+#: includes/controls/select.php:534 includes/controls/select.php:666
+msgid "These settings are only applied for the combobox (facet settings)."
+msgstr ""
+"Ces réglages ne sont appliqués que pour la liste combinée (réglages des "
+"facettes)."
+
+#: includes/controls/select.php:551 includes/controls/select.php:604
+msgid "Label Color"
+msgstr "Couleur du libellé"
+
+#: includes/controls/select.php:562 includes/controls/select.php:615
+msgid "Label Background Color"
+msgstr "Couleur d’arrière plan du libellé"
+
+#: includes/controls/select.php:584 includes/controls/select.php:637
+msgid "Icon Background Color"
+msgstr "Couleur de l’arrière plan de l'icône"
+
+#: includes/controls/selection.php:20
+msgid "Clear Icon"
+msgstr "Icône effacer"
+
+#: includes/controls/title.php:22
+msgid "Title"
+msgstr "Titre"
+
+#: includes/controls/toggle.php:24
+msgid "Toggle Button"
+msgstr "Bouton à bascule"
+
+#: includes/controls/treeview.php:22
+msgid "Treeview Buttons"
+msgstr "Boutons de l'arbre de navigation"
+
+#: includes/controls/treeview.php:33
+msgid "Button Size"
+msgstr "Taille du bouton"
+
+#: includes/controls/treeview.php:72
+msgid "Collapsed"
+msgstr "Réduit"
+
+#: includes/controls/treeview.php:112
+msgid "Expanded"
+msgstr "Expansé"
+
+#: includes/widgets/class-facet.php:48
+msgid "Facet"
+msgstr "Facette"
+
+#: includes/widgets/class-facet.php:216
+msgid "Please Select a Facet and a Grid."
+msgstr "Veuillez sélectionner une facette et une grille."
+
+#: includes/widgets/class-grid.php:48
+msgid "Grid"
+msgstr "Grille"
+
+#: includes/widgets/class-grid.php:220
+msgid "Please Select a Grid."
+msgstr "Veuillez sélectionner une grille."
+
+#: wp-grid-builder-elementor.php:61
+msgid ""
+"<strong>Gridbuilder ᵂᴾ - Elementor</strong> add-on requires at least "
+"<code>Gridbuilder ᵂᴾ v1.4.2</code>. Please update Gridbuilder ᵂᴾ to use "
+"Elementor add-on."
+msgstr ""
+"Le module <strong>Gridbuilder ᵂᴾ - Elementor</strong> nécessite au moins "
+"<code>Gridbuilder ᵂᴾ v1.4.2</code>. Veuillez mettre à jour Gridbuilder ᵂᴾ "
+"pour utiliser le module Elementor."
+
+#: wp-grid-builder-elementor.php:74
+msgid ""
+"<strong>Gridbuilder ᵂᴾ - Elementor</strong> add-on requires at least "
+"<code>Elementor v3.0.0</code>. Please update and activate Elementor."
+msgstr ""
+"Le module <strong>Gridbuilder ᵂᴾ - Elementor</strong> nécessite au moins "
+"<code>Elementor v3.0.0</code>. Veuillez mettre à jour et activer Elementor."
