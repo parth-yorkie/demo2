@@ -319,3 +319,5 @@ function yorkie_relatedposts_callback() {
 	wp_reset_postdata();
 
 }
+
+//Function file edited.
